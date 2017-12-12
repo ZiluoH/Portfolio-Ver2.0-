@@ -108,3 +108,53 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+
+
+
+
+/*portfolio*/
+.box{
+	cursor: pointer;
+	height: 182px;
+	float: left;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	width: 310px;
+}
+
+.box .bg-block-1{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	transition: all 300ms ease-out;
+}
+
+.box .title{
+	text-align: left;
+	padding: 8px 0 0 8px;
+	font-weight: bold;
+}
+
+.box p{
+	margin: 3px 0 0 0;
+	padding: 0 0 8px 8px;
+	text-align: left;
+}
+
+.box .caption{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	transition: all 300ms ease-out;
+	left: 0;
+}
+
+.box .caption p{
+	display: none;
+}
