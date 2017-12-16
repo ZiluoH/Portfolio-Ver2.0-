@@ -6,7 +6,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem; } }
+    padding-left: 14rem; } }
 
 h1,
 h2,
@@ -56,7 +56,7 @@ h2 {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 14rem;
     height: 100vh; }
     #sideNav .navbar-brand {
       display: flex;
